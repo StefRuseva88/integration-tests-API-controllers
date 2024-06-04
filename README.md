@@ -14,7 +14,11 @@ This project demonstrates how to write integration tests to verify the functiona
 - Basic understanding of ASP.NET MVC, C#, and web APIs.
 - Familiarity with NUnit or xUnit (choose one or both).
 - Familiarity with SSMS(SQL Server Management Studio).
-
+### Project Structure:
+- Controllers: This folder holds the code for controllers, which handle incoming and outgoing API requests and interact with the application logic and data layer.
+- Models: This folder contains classes representing the data models used by the application. These models define the data structure (e.g., Event, User, etc.).
+- Properties: This folder contains configuration files specific to the environment, such as connection strings and other settings.
+- Views: This folder holds the code for the user interface (UI) elements, such as Razor views for ASP.NET MVC applications.
 ### Understanding the Application (Brief Summary):
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
