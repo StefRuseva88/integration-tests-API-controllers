@@ -11,21 +11,14 @@ This project demonstrates how to write integration tests to verify the functiona
 - xUnit: A free and open-source testing framework known for its readability and ease of use.
 ## Prerequisites:
 
-- Basic understanding of ASP.NET MVC, C#, SSMS and web APIs.
+- Basic understanding of ASP.NET MVC, C#, and web APIs.
 - Familiarity with NUnit or xUnit (choose one or both).
-## Project Structure:
+- Familiarity with SSMS(SQL Server Management Studio).
 
-- The project includes code for the API controllers.
-Test project(s) using either NUnit or xUnit frameworks to house your integration tests.
-## Getting Started (Optional: 
-- Choose either NUnit or xUnit based on your preference, I recommend NUnit):
-- Clone this repository.
-- Review the test project(s) to understand the structure and approach used for testing API controllers.
-- (Optional) Run existing tests to observe their behavior.
 ## Understanding the Application (Brief Summary):
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
-- It manages events and was focused on writing API tests for this functionality, it is also interacting with a database managed through SSMS(SQL Server Management Studio).
+- It manages events and was focused on writing API tests for this functionality, it is also interacting with a database managed through SSMS.
 ## Additional Notes:
 
 The specific setup and configuration steps might vary depending on the project's implementation.
