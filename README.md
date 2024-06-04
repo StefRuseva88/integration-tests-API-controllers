@@ -19,6 +19,8 @@ This project demonstrates how to write integration tests to verify the functiona
 - Models: This folder contains classes representing the data models used by the application. These models define the data structure (e.g., Event, User, etc.).
 - Properties: This folder contains configuration files specific to the environment, such as connection strings and other settings.
 - Views: This folder holds the code for the user interface (UI) elements, such as Razor views for ASP.NET MVC applications.
+- wwwroot: This folder holds static content that can be accessed directly by the web server, such as images, CSS files, or JavaScript files.
+- Tests: This file contains integration tests for the "Eventmi" app
 ### Understanding the Application (Brief Summary):
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
