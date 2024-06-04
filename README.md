@@ -3,7 +3,7 @@
 This repository showcases integration testing of API controllers in an ASP.NET MVC project using NUnit and xUnit frameworks.
 ### Project Goal:
 
-This project demonstrates how to write integration tests to verify the functionality of API controllers in isolation from the entire application stack (e.g., database, UI).
+This project demonstrates how to write integration tests to verify the functionality of API controllers interacting with a database (e.g., SQL Server via SSMS).
 
 ### Testing Frameworks:
 
