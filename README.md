@@ -24,7 +24,9 @@ This project demonstrates how to write integration tests to verify the functiona
 ### Understanding the Application (Brief Summary):
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
-- It manages events and was focused on writing API tests for this functionality, it is also interacting with a database managed through SSMS.
+- The application is interacting with a database managed through SSMS.
+- Since It manages events, my main focuse was on writing API tests for this functionality.
+  
 ### Additional Notes:
 - This repository serves as a starting point for learning integration testing of API controllers.
 - This repository demonstrates XUnit and NUnit configuration and usage with the "Eventme" application file.
