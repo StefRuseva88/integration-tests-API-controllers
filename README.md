@@ -20,7 +20,14 @@ This project demonstrates how to write integration tests to verify the functiona
 - The application under test is an ASP.NET MVC project named "Eventmi".
 - It manages events and was focused on writing API tests for this functionality, it is also interacting with a database managed through SSMS.
 ### Additional Notes:
+- This repository serves as a starting point for learning integration testing of API controllers.
+- This repository demonstrates XUnit and NUnit configuration and usage with the "Eventme" application file.
+- The specific setup and configuration steps might vary depending on the project's implementation.
+### Contributing
+Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
-The specific setup and configuration steps might vary depending on the project's implementation.
-This repository serves as a starting point for learning integration testing of API controllers.
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+### Contact
+For any questions or suggestions, please open an issue in the repository.
