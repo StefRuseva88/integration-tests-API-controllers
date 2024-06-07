@@ -25,7 +25,7 @@ This project demonstrates how to write integration tests to verify the functiona
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
 - The application is interacting with a database managed through SSMS.
-- Since It manages events, my main focuse was on writing API tests for this functionality.
+- Since It manages events, my main focus was on writing API tests for this functionality.
   
 ### Additional Notes:
 - This repository serves as a starting point for learning integration testing of API controllers.
