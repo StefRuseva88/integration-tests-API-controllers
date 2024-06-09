@@ -1,5 +1,7 @@
 # Integration testing of API Controllers with NUnit and XUnit
 ## This is a test project for Back-End Test Automation March 2024 Course @ SoftUni.
+---
+### About
 This repository showcases integration testing of API controllers in an ASP.NET MVC project using NUnit and xUnit frameworks.
 ### Project Goal:
 
