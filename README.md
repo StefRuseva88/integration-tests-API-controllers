@@ -3,6 +3,7 @@
 ---
 ### About
 This repository showcases integration testing of API controllers in an ASP.NET MVC project using NUnit and xUnit frameworks.
+
 ### Project Goal:
 
 This project demonstrates how to write integration tests to verify the functionality of API controllers interacting with a database (e.g., SQL Server via SSMS).
@@ -11,17 +12,20 @@ This project demonstrates how to write integration tests to verify the functiona
 
 - NUnit: A mature and popular .NET testing framework.
 - xUnit: A free and open-source testing framework known for its readability and ease of use.
+  
 ### Prerequisites:
 
 - Basic understanding of ASP.NET MVC, C#, and web APIs.
 - Familiarity with NUnit or xUnit (choose one or both).
 - Familiarity with SSMS(SQL Server Management Studio).
+  
 ### Project Structure:
 - Controllers: This folder holds the code for controllers, which handle incoming and outgoing API requests and interact with the application logic and data layer.
 - Models: This folder contains classes representing the data models used by the application. These models define the data structure (e.g., Event, User, etc.).
 - Properties: This folder contains configuration files specific to the environment, such as connection strings and other settings.
 - Views: This folder holds the code for the user interface (UI) elements, such as Razor views for ASP.NET MVC applications.
-- Tests: This file contains integration tests for the "Eventmi" app
+- Tests: This file contains integration tests for the "Eventmi" app.
+  
 ### Understanding the Application (Brief Summary):
 
 - The application under test is an ASP.NET MVC project named "Eventmi".
