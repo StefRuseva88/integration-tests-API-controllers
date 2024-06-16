@@ -29,8 +29,8 @@ This project demonstrates how to write integration tests to verify the functiona
 - Since It manages events, my main focus was on writing API tests for this functionality.
   
 ### Additional Notes:
-- This repository serves as a starting point for learning integration testing of API controllers.
-- This repository demonstrates XUnit and NUnit configuration and usage with the "Eventmi" application file.
+- This repository serves as a starting point for testing integration of API controllers.
+- This repository demonstrates xUnit and NUnit configuration and usage with the "Eventmi" application file.
 - The specific setup and configuration steps might vary depending on the project's implementation.
 ### Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
