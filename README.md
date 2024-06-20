@@ -37,9 +37,9 @@ This project demonstrates how to write integration tests to verify the functiona
 
 ## Why Not Use a Constructor:
 While you could theoretically use a constructor in a test class to initialize fields, it's not the standard practice for a few reasons:
-- Consistency: NUnit's setup and teardown methods ([SetUp] and [TearDown]) provide a consistent way to initialize and clean up resources before and after each test. They're designed to work with NUnit's test lifecycle
-- Flexibility: Using [SetUp] allows for more complex setup logic that might involve reading from configuration files, setting up mocks, or any other actions you'd want to perform before each test.
-- Isolation: [SetUp] ensures that the state is reset before each test, providing better test isolation and reducing the risk of inter-test dependencies.
+- Consistency: NUnit's setup and teardown methods `[SetUp]` and `[TearDown]` provide a consistent way to initialize and clean up resources before and after each test. They're designed to work with NUnit's test lifecycle
+- Flexibility: Using `[SetUp]` allows for more complex setup logic that might involve reading from configuration files, setting up mocks, or any other actions you'd want to perform before each test.
+- Isolation: `[SetUp]` ensures that the state is reset before each test, providing better test isolation and reducing the risk of inter-test dependencies.
   
 ## Additional Notes:
 - This repository serves as a starting point for testing integration of API controllers.
