@@ -4,7 +4,7 @@
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ### This is a test project for Back-End Test Automation March 2024 Course @ SoftUni.
 ---
-## About
+## About:
 This repository showcases integration testing of API controllers in an ASP.NET MVC project using NUnit and xUnit frameworks.
 
 ## Project Goal:
@@ -46,7 +46,7 @@ While you could theoretically use a constructor in a test class to initialize fi
 - This repository demonstrates xUnit and NUnit configuration and usage with the "Eventmi" application file.
 - The specific setup and configuration steps might vary depending on the project's implementation.
 
-## Contributing
+## Contributing:
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
 ## License
