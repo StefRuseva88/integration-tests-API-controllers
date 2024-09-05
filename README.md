@@ -8,15 +8,13 @@
 
 ### This is a test project for **Back-End Test Automation** March 2024 Course @ SoftUni.
 ---
-## About
-This repository showcases integration testing of API controllers in an ASP.NET MVC project using NUnit and xUnit frameworks.
+## Project Overview
+This repository highlights the process of integration testing for API controllers in an ASP.NET MVC application using the NUnit and xUnit testing frameworks.
 
-## Project Goal
-
-This project demonstrates how to write integration tests to verify the functionality of API controllers interacting with a database (e.g., SQL Server via SSMS).
+## Purpose
+The objective of this project is to demonstrate the creation of integration tests that verify the functionality of API controllers, ensuring they properly interact with the database (such as SQL Server managed through SSMS).
 
 ## Testing Frameworks
-
 - NUnit: A mature and popular .NET testing framework.
 - xUnit: A free and open-source testing framework known for its readability and ease of use.
   
@@ -26,27 +24,11 @@ This project demonstrates how to write integration tests to verify the functiona
 - Familiarity with SSMS(SQL Server Management Studio).
   
 ## Project Structure
-- Controllers: This folder holds the code for controllers, which handle incoming and outgoing API requests and interact with the application logic and data layer.
-- Models: This folder contains classes representing the data models used by the application. These models define the data structure (e.g., Event, User, etc.).
-- Properties: This folder contains configuration files specific to the environment, such as connection strings and other settings.
-- Views: This folder holds the code for the user interface (UI) elements, such as Razor views for ASP.NET MVC applications.
-- Tests: This file contains integration tests for the "Eventmi" app.
-  
-## Understanding the Application (Brief Summary)
-- The application under test is an ASP.NET MVC project named "Eventmi".
-- The application is interacting with a database managed through SSMS.
-- Since It manages events, my main focus was on writing API tests for this functionality.
-
-## Why Not Use a Constructor
-While you could theoretically use a constructor in a test class to initialize fields, it's not the standard practice for a few reasons:
-- Consistency: NUnit's setup and teardown methods `[SetUp]` and `[TearDown]` provide a consistent way to initialize and clean up resources before and after each test. They're designed to work with NUnit's test lifecycle
-- Flexibility: Using `[SetUp]` allows for more complex setup logic that might involve reading from configuration files, setting up mocks, or any other actions you'd want to perform before each test.
-- Isolation: `[SetUp]` ensures that the state is reset before each test, providing better test isolation and reducing the risk of inter-test dependencies.
-  
-## Additional Notes
-- This repository serves as a starting point for testing integration of API controllers.
-- This repository demonstrates xUnit and NUnit configuration and usage with the "Eventmi" application file.
-- The specific setup and configuration steps might vary depending on the project's implementation.
+- Controllers: Contains the code for API controllers, responsible for handling incoming requests, managing responses, and interacting with the data and application layers.
+- Models: Includes data model classes that define the structure of entities like Event, User, and others.
+- Properties: Stores configuration files, such as connection strings and environment-specific settings.
+- Views: Contains UI elements like Razor views for the MVC framework.
+- Tests: This section includes integration tests for the application, focusing on the "Eventmi" app.
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
